@@ -81,7 +81,7 @@
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contato</h2>
-								<form method="post" action="#">
+								<form id="gform" method="post" action="https://script.google.com/macros/s/AKfycbwGkvrwP3Ue24DRhZUwm39uBTvbCB0TzwzKM8ewpneMVdUpypWM/exec">
 									<div class="field half first">
 										<label for="name">Nome</label>
 										<input type="text" name="name" id="name" />
@@ -99,6 +99,8 @@
 										<li><input type="reset" value="Cancelar" /></li>
 									</ul>
 								</form>
+								<p id="thankyou_message" class="feedback">Contato realizado com sucesso!</p>
+								<p id="error_message" class="feedback">Não foi possível realizar o contato. Me mande um email através de <a href="mailto:psi@sampaiochagas.com" target="_blank">psi@sampaiochagas.com</a> ou fale comigo nas redes sociais!</p>
 								<ul class="icons">
 									<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 									<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
@@ -127,6 +129,6 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="assets/js/mail.js"></script>
 	</body>
 </html>

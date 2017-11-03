@@ -1592,3 +1592,7 @@
 		body.is-loading #footer {
 			opacity: 0;
 		}
+
+.feedback {
+	display: none;
+}
