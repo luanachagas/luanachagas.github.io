@@ -73,6 +73,8 @@ function handleFormSubmit(event) {  // handles form submit withtout any jquery
     document.getElementById('email-invalid').style.display = 'block';
     return false;
   } else {
+    document.getElementById('mail-sender-button').style.display = 'none';
+    document.getElementById('mail-sender-spinner').style.display = 'block';
     var url = event.target.action;  //
     var xhr = new XMLHttpRequest();
     xhr.open('POST', url);
